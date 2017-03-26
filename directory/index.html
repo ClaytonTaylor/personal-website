@@ -8,15 +8,15 @@
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
 
-  <!-- Angular -->
+  <!-- jQuery-->
   <script type='text/javascript' src='../js/jquery/particle.js'></script>
   <script type='text/javascript' src='../js/jquery/jquery.particleground.js'></script>
 
-
+  <!-- Angular -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
 
-
+  <!-- JS -->
   <script type='text/javascript' src='main.js'></script>
 
 
@@ -24,19 +24,11 @@
 
 <body>
 
-<div id="particles">
-  <div id="intro">
-    <h1>Clay Taylor</h1>
-    <p>Developer + Story-teller</p>
-    <a class="btn" ui-sref="Profile">Profile</a>
-    <a class="btn" ui-sref="Experience">Experience</a>
-    <a class="btn" ui-sref="Technology">Technology</a>
-    <a class="btn" ui-sref="Education">Education</a>
-  </div>
-
-  <!--ui-Router-->
-  <ui-view></ui-view>
-</div>
+  <div id="particles">
+    <div id="intro">
+        <!--ui-Router-->
+        <ui-view></ui-view>
+    </div>
 
 </body>
 </html>
