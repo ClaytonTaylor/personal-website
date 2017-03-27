@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
-  border: 0;
+  /*border: 0;*/
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -106,7 +106,7 @@ h2 {
 }
 
 h3 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.015em;
@@ -114,8 +114,8 @@ h3 {
 
 p {
   margin: 0 0 30px 0;
-  font-size: 24px;
-  text-transform: capitalize;
+  font-size: 20px;
+  /*text-transform: capitalize;*/
 }
 .btn {
   display: inline-block;
