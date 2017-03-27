@@ -57,7 +57,7 @@ table {
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 body {
@@ -77,7 +77,7 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 20%;
   padding: 0 20px;
   width: 100%;
   text-align: center;
@@ -97,6 +97,21 @@ h1 {
   margin: 30px auto;
   line-height: 1.1;
 }*/
+
+h2 {
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+}
+
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
@@ -164,4 +179,14 @@ p {
   h1::after {
     height: 4px;
   }
+}
+
+.info-block {
+  margin-left: 90px;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.info-section {
+  padding-top: 20px;
 }
