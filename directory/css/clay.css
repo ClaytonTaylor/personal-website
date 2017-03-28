@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -109,13 +109,13 @@ h2 {
 
 h3 {
   /*text-transform: capitalize;*/
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 400;
   letter-spacing: 0.015em;
 }
 
 p {
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
   font-size: 20px;
   /*text-transform: capitalize;*/
 }
@@ -192,10 +192,44 @@ p {
 
 .info-section {
   padding-top: 20px;
+  padding-bottom: 20px;
   overflow: visible;
 }
 
 #logo {
   width: 150px;
   height: 150px;
+}
+
+.tech-section {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+#profile-pic {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.profile-section {
+  padding: 30px;
+  text-align: left;
+  flex: 1 1 0px;
+  /*position: relative;*/
+}
+
+.profile-pic-section {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-block {
+  text-align: left;
+  position: absolute;
+  left: 38%;
+}
+
+#profile-title {
+  text-align:justify;
 }
