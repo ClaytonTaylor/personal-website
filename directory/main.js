@@ -8,12 +8,12 @@ angular.module('personalWebsite', ['ui.router'])
       // $urlRouterProvider.otherwise('/Login');
       $stateProvider
 
-      .state('Home', {
-          url: '/home',
-          templateUrl: './views/home.html'
-          // controller: '',
-          // authenticate: true
-      })
+      // .state('Home', {
+      //     url: '/home',
+      //     templateUrl: './views/home.html'
+      //     // controller: '',
+      //     // authenticate: true
+      // })
       .state('Profile', {
           url: '/profile',
           templateUrl: './views/profile.html'
@@ -38,5 +38,5 @@ angular.module('personalWebsite', ['ui.router'])
           // controller: '',
           // authenticate: true
       })
-     $urlRouterProvider.otherwise('/home');
+     $urlRouterProvider.otherwise('/profile');
    }
