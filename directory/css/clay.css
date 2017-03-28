@@ -71,7 +71,9 @@ body {
 #particles {
   width: 100%;
   height: 100%;
-  overflow: visible;
+  position: fixed;
+  overflow: auto;
+  top: 0%;
 }
 
 #intro {
@@ -189,6 +191,7 @@ p {
 
 .info-section {
   padding-top: 20px;
+  overflow: visible;
 }
 
 #logo {
