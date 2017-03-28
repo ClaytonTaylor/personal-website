@@ -184,7 +184,8 @@ p {
 }
 
 .info-block {
-  margin-left: 90px;
+  margin-left: 15%;
+  margin-right: 15%;
   padding-top: 30px;
   text-align: left;
 }
