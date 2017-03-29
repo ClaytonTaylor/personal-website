@@ -50,6 +50,6 @@ app.post('*', bodyParser.json(), bodyParser.urlencoded({ extended:true }))
 require('./node_modules/routes')(app)
 
 // start the server
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, () => {
     console.log('Login Server Started on port:', port.toString().cyan)
 })
