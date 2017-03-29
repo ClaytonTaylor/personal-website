@@ -74,6 +74,9 @@ body {
     transition: background-color 2.5s ease-in-out;
 }
 
+::-webkit-scrollbar {
+display: none;
+}
 
 #particles {
   width: 100%;
@@ -87,7 +90,7 @@ body {
   position: absolute;
   left: 0;
   top: 10%;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
   width: 100%;
   text-align: center;
 }
@@ -109,14 +112,14 @@ h1 {
 
 h2 {
   text-transform: capitalize;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
   letter-spacing: 0.015em;
 }
 
 h3 {
   /*text-transform: capitalize;*/
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.015em;
 }
@@ -153,6 +156,11 @@ p {
   h1 {
     font-size: 70px;
   }
+  {
+        display: block;
+        float: none;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -162,6 +170,11 @@ p {
   h1::after {
     height: 8px;
   }
+  {
+        display: block;
+        float: none;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 568px) {
@@ -180,6 +193,11 @@ p {
   .btn {
     font-size: 16px;
   }
+  {
+        display: block;
+        float: none;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -189,6 +207,11 @@ p {
   h1::after {
     height: 4px;
   }
+  {
+        display: block;
+        float: none;
+        width: 100%;
+    }
 }
 
 .info-block {
@@ -196,12 +219,14 @@ p {
   margin-right: 15%;
   padding-top: 30px;
   text-align: left;
+  display:inline-block;
 }
 
 .info-section {
   padding-top: 20px;
   padding-bottom: 20px;
   overflow: visible;
+
 }
 
 #logo {
@@ -215,13 +240,13 @@ p {
 }
 
 #profile-pic {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
 .profile-section {
-  padding: 30px;
+  padding: 20px;
   text-align: left;
   flex: 1 1 0px;
   /*position: relative;*/
@@ -229,15 +254,12 @@ p {
 
 .profile-pic-section {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
 }
 
 .profile-block {
   text-align: left;
-  display: flex;
-  justify-content: center;
-  align-items:flex-start;
-  left: 38%;
+  display:inline-block;
 }
 
 #profile-title {
